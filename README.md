@@ -1,4 +1,4 @@
-# Algorithmic Cryptanalysis - Antonine Joux
+# Algorithmic Cryptanalysis - Antoine Joux
 
 From the Preface:
 
