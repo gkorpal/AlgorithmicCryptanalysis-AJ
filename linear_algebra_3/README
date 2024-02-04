@@ -1,0 +1,26 @@
+
+To build all the programs from Chapter 3 type:
+   make all
+
+
+To test the boolean multiplication programs (If everything is OK, make
+exits silently) :
+  make test
+
+
+You can choose your compiler and compile options by setting the
+variables CC and CFLAGS.  E.g, under sh type (before invoking make)
+something similar to:
+  export CC=gcc
+  export CFLAGS="-O3"
+
+
+
+The target "strassen_boolean" contains the elementary code for 32nX32n
+matrices and an implementation of Strassen's algorithm for the same
+tasks. When launched, the program runs and times many matrix
+multiplications with varying matrix sizes and parameters. Each output
+line is of the form:
+matsize time_in_sec algo_identifier
+
+
